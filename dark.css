@@ -488,7 +488,15 @@ span.c-channel_name { color: #e6e6e6; }
 
 .c-pillow_file_container { background-color: #222; }
 
-.p-file_list__file.c-pillow_file_container--full_width { border-bottom: 1px solid #363636; }
+.p-file_list__file.c-pillow_file_container--full_width, .p-file_list__file.c-pillow_file_container--full_width:hover { border-bottom: 1px solid #363636; }
+
+.p-file_list__file.c-pillow_file_container--full_width:hover { backgrond-color: #2d2d2d; }
+
+.c-pillow_file__description { color: #949494; }
+
+.file_container, .c-file_container { background: #2d2d2d; }
+
+.c-input_select { border: none; }
 
 .p-file_upload_dialog__footer_share_inputs { color: #e6e6e6; }
 
