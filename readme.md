@@ -30,7 +30,7 @@ Dark mode theme for Slack desktop and web based clients
 ```javascript
 document.addEventListener('DOMContentLoaded', function() {
  $.ajax({
-   url: 'https://raw.githubusercontent.com/alienator88/slacky-dark/master/dark.css',
+   url: 'https://raw.githubusercontent.com/rtgibbons/slacky-dark/master/dark.css',
    success: function(css) {
      $("<style></style>").appendTo('body').html(css);
    }
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 1. Install the Stylus extension for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 
-2. Apply the style from my [UserStyles.org](https://userstyles.org/styles/164675/slacky-dark) page.
+2. ~~Apply the style from my [UserStyles.org](https://userstyles.org/styles/164675/slacky-dark) page.~~
 
 # Automated Install (Windows)
 
