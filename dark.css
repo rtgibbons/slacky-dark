@@ -438,9 +438,9 @@ button#main_emo_menu { margin-bottom: -2px; }
 
 #footer, #footer.footer_msg_input { background: #222; box-shadow: inset 1px 0 0 0 #222; }
 
-#footer.disabled #message-input, #footer.disabled #msg_input { background: padding-box #363636 !important; border-color: #363636 !important; }
+#footer.disabled #message-input, #footer.disabled #msg_input, #footer_archives_preview { background: padding-box #363636 !important; border-color: #363636 !important; }
 
-#footer_archives_table { color: #949494; }
+#footer_archives_table, #footer_archives_preview.c-archive_footer__title { color: #949494; }
 
 #typing_text { color: #949494; filter: none; }
 
