@@ -482,6 +482,12 @@ li#team_help { display: none; }
 
 span.c-channel_name { color: #e6e6e6; }
 
+.p-file_list__filters { border-bottom: none; }
+
+.c-pillow_file_container { background-color: #222; }
+
+.p-file_list__file.c-pillow_file_container--full_width { boder-bottom: 1px solid #363636; }
+
 .p-file_upload_dialog__footer_share_inputs { color: #e6e6e6; }
 
 span.c-channel_name__text { color: #e6e6e6; }
